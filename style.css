@@ -1,5 +1,5 @@
 /*Typography */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap");
 
 .callout {
   font-family: Lato;
@@ -8,7 +8,7 @@
   font-size: 4em;
   text-align: center;
   letter-spacing: 0.05em;
-  margin: .5em 0;
+  margin: 0.5em 0;
 }
 
 h1 {
@@ -16,7 +16,7 @@ h1 {
   font-style: normal;
   font-weight: bold;
   font-size: 4em;
-  margin: 0 .5em;
+  margin: 0 0.5em;
   text-align: center;
 }
 
@@ -35,9 +35,9 @@ h3 {
   font-weight: bold;
   font-size: 1.8em;
   letter-spacing: 0.03em;
-  color: #B7142E;
+  color: #b7142e;
   border-bottom: 0.5px solid #000000;
-  padding-bottom: .5em;
+  padding-bottom: 0.5em;
   text-align: center;
 }
 
@@ -48,7 +48,8 @@ h3 {
   font-size: 18px;
   line-height: 222%;
   letter-spacing: 0.05em;
-  color: #FFFFFF;
+  color: #ffffff;
+  padding: 0 1.5em;
 }
 
 .congratulations a {
@@ -60,7 +61,7 @@ h3 {
 .message {
   max-width: 850px;
   margin: 4em 0;
-}  
+}
 
 .honors {
   font-family: Lato;
@@ -69,7 +70,7 @@ h3 {
   font-size: 1.15em;
   text-align: center;
   letter-spacing: 0.05em;
-  color: #B7142E;
+  color: #b7142e;
 }
 
 .degree {
@@ -83,9 +84,10 @@ h3 {
 
 .advice {
   text-align: left;
-} 
+}
 
-.quote, .byline {
+.quote,
+.byline {
   font-family: Lato;
   font-weight: normal;
   font-size: 1em;
@@ -94,11 +96,13 @@ h3 {
   font-style: italic;
 }
 
-.plans, .advice, ul {
+.plans,
+.advice,
+ul {
   font-family: Playfair Display;
   font-style: normal;
   font-weight: normal;
-  font-size: .9em;
+  font-size: 0.9em;
   letter-spacing: 0.03em;
 }
 
@@ -110,18 +114,18 @@ h3 {
   font-family: Playfair Display;
   font-style: italic;
   font-weight: bold;
-  font-size: .9em;
+  font-size: 0.9em;
   letter-spacing: 0.03em;
   color: #b7142e;
   text-decoration: none;
 }
 
 a:visited {
-  color: #810E21;
+  color: #810e21;
 }
 
 a:hover {
-  color: #DC1839
+  color: #dc1839;
 }
 
 /* Whole Page */
@@ -132,16 +136,16 @@ body {
 
 /* Intro or Header Section */
 .line {
-  border: .25px solid #000000;
+  border: 0.25px solid #000000;
   width: 80%;
 }
 
 header {
   display: flex;
   flex-direction: column;
-  background-color: #B7142E;
+  background-color: #b7142e;
   align-items: center;
-  background-image: url('https://i.imgur.com/2txCxjP.png');
+  background-image: url("https://i.imgur.com/2txCxjP.png");
   background-repeat: no-repeat;
 }
 
@@ -163,6 +167,7 @@ header {
   align-items: center;
   margin-bottom: 3em;
   margin-top: 0;
+  padding: 0 1em;
 }
 /* Student Cards */
 .student {
@@ -206,7 +211,7 @@ img {
 #instructors {
   display: flex;
   flex-direction: column;
-  background-color: #B7142E;
+  background-color: #b7142e;
   align-items: center;
 }
 
@@ -231,7 +236,7 @@ img {
   flex-direction: column;
   justify-content: space-between;
   box-sizing: border-box;
-  padding: .5em 1.5em;
+  padding: 0.5em 1.5em;
 }
 
 /* Footer */
@@ -256,4 +261,24 @@ footer p {
   color: white;
   text-align: center;
   line-height: 115%;
+}
+
+@media only screen and (max-width: 850px) {
+  .callout {
+    font-size: 3em;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  h2 {
+    font-size: 2.5em;
+  }
+  #header-row > svg {
+    max-width: 20%;
+  }
+  img {
+    width: 100%;
+  }
 }
