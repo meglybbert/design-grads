@@ -222,7 +222,8 @@ img {
 
 #instructors h2 {
   color: white;
-  margin-top: 3em;
+  margin-top: 2em;
+  margin-bottom: 1em;
 }
 
 .tips {
@@ -288,5 +289,6 @@ footer p {
   }
   #instructors h2 {
     margin-top: 1em;
+    margin-bottom: .5em;
 }
 }
