@@ -184,6 +184,7 @@ header {
   gap: 2em;
   margin-bottom: 3em;
   background-color: #ffffff;
+  justify-content: space-around;
 }
 
 img {
